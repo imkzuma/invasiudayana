@@ -1,0 +1,73 @@
+.Panitia{
+    width: 100%;
+}
+.Panitia p{
+    padding-top: 50px;
+}
+.Panitia h1{
+    padding-bottom: 50px;
+}
+.btn-panitia{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 70px;
+    font-size: 17px;
+    background-color: #00154B;
+    transition: 0.4s ease-out;
+}
+.btn-panitia:hover{
+    background-color: #000f35;
+    color: white;
+    transition: 0.4s ease-in;
+}
+.col-panitia{
+    padding: 10px;
+    margin: auto;
+}
+.col-panitia img{
+    border-radius: 20px;
+}
+
+.row-panitia{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.row-panitia h2{
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: #00154B;
+}
+
+.header-panitia{
+    width: 100%;
+    height: auto;
+    background-image: url('../img/bg-invasi.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 25vh;
+    text-align: center;
+}
+
+
+.header-panitia h1{
+    padding-bottom: 20vh;
+    color: white;
+    font-size: 85px;
+    
+    font-weight: 900;
+}
+.header-panitia p{
+    color: white;
+    padding-top: 25vh;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Magmawave Caps' !important;
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+    .Panitia{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

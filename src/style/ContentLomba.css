@@ -1,0 +1,180 @@
+.Content-Lomba{
+    width: 100%;
+    background-image: url("../img/bg-lomba.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    padding-bottom: 30vh;
+    padding-top: 36vh;
+    height: auto;
+}
+
+.Content-Lomba h5{
+    color: #E6E6E6;
+    padding-top: 30px;
+    font-weight: 500;
+}
+.Content-Lomba h1{
+    color: white;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+.card-one h3,
+.card-two h3,
+.card-three h3,
+.card-four h3{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.card-one p,
+.card-two p,
+.card-three p,
+.card-four p{
+    color: rgb(212, 212, 212);
+    text-align: justify;
+    font-weight: 300;
+}
+
+.card-one, 
+.card-two, 
+.card-three , 
+.card-four {
+    background: rgba(246, 0, 93, 0.25);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10.9px);
+    -webkit-backdrop-filter: blur(10.9px);
+    margin: 20px;
+    padding: 40px 40px;
+    
+}
+
+.col-btn{
+    width: 100%;
+    margin: auto;
+}
+
+.btn-lomba-one,
+.btn-lomba-two,
+.btn-lomba-three,
+.btn-lomba-four{
+    padding: 13px 18px;
+    font-size: 17px;
+    background-color: rgba(0, 68, 255, 0.5);
+    border: 1px solid rgba(0, 68, 255, 0.6);
+    border-radius: 10px;    
+    width: 48%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.container-soon{
+    visibility: hidden;
+}
+
+.container-webnas{
+    border-top: 2px dashed white;
+}
+.card-webnas-date{
+    color: white;
+    padding: 20px;
+}
+.time-card{
+    border-left: 2px dashed white;
+    padding-left: 23px;
+    margin-left: 23px;
+}
+.price-umum{
+    border-left: 2px dashed white;
+}
+.card-wrapper , .card-detail-speakers , .wrapper-registration{
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 3.80249px 38.0249px rgba(0, 0, 0 , 0.1);
+    backdrop-filter: blur(13.784px);
+    border-radius: 11.0124px;
+}
+.btn-daftar-webnas{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.bg-for-speaker{
+    background: linear-gradient(85.16deg, #2D2A78 3.04%, #603572 98.93%);
+    /* NS - Multiple Button */
+
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(255, 255, 255, 0.25), inset -4px -4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(14.5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 165px;
+}
+
+.Logo-Lomba{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+} 
+
+.row-vid{
+    padding-bottom: 10vh;
+    margin-top: 30px;
+}
+
+.col-vid iframe{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+@media screen and (min-width: 300px ) and (max-width: 900px) {
+    .Content-Lomba{
+        padding: 320px 0px;
+        padding-bottom: 55rem;
+        margin-bottom: 0px;
+    }
+    .Content-Lomba h1{
+        font-size: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .btn-lomba-one, 
+    .btn-lomba-two,
+    .btn-lomba-three,
+    .btn-lomba-four{
+        margin: 10px auto 0px auto;
+        width: 100%;
+    }
+    .card-one h3,
+    .card-two h3,
+    .card-three h3,
+    .card-four h3{
+        font-size: 30px;
+        font-weight: 900;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .card-one p,
+    .card-two p,
+    .card-three p,
+    .card-four p{
+        font-size: 15px;
+    }
+
+    .Logo-Lomba{
+        text-align: center;
+        width: 100%;
+    }
+    .card-four{
+        margin-bottom: 50px;
+    }
+
+    .row-vid{
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+}
+

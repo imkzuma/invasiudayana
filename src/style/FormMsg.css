@@ -1,0 +1,72 @@
+.FormMsg{
+    width: 100% !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.FormMsg h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: 900;
+    color: #00154B;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.FormMsg label , .input-msg{
+    width: 100%;
+}
+
+.col-msg-one , .col-msg-two{
+    padding: 50px;
+    padding-bottom: 0px !important;
+    overflow-x: hidden;
+}
+
+.col-msg-one h3 , .col-msg-two h3{
+    font-weight: 700;
+    color: #00154B;
+}
+.col-msg-two h3{
+    padding-bottom: 10px;
+}
+.col-msg-one p{
+    color: #012581a3;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.input-msg{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(0, 98, 196);
+    transition: 0.5s ease-out;
+}
+
+.input-msg:focus{
+    border: 1px solid rgb(0, 60, 121);
+    transition: 0.5s ease-in;
+}
+
+.btn-msg{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #00154B;
+    border: 1px solid #00154B;
+    color: white;
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+   .FormMsg h1{
+        padding-bottom: 0px;
+        text-align: left !important;
+        font-size: 45px;
+   }
+   .col-msg-one {
+        padding-bottom: 0px;
+        padding-top: 40px;
+   }
+   .col-msg-two h3{
+    padding-top: 0px;
+    margin-top: -25px;
+   }
+}

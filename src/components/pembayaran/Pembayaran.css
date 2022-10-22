@@ -1,0 +1,35 @@
+.Pembayaran{
+    width: 100%;
+    margin-top: -100px;
+    height: 100vh;
+    background-image: url('../../img/bg-invasi.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 25vh;
+}
+
+.Pembayaran h1{
+    padding-top: 35vh;
+    color: white;
+    font-family: 'Magmawave Caps' !important;
+    font-weight: 900;
+    font-size: 65px;
+}
+.Pembayaran p {
+    color: rgb(216, 216, 216);
+    font-weight: 300;
+    font-size: 20px;
+    font-family: "Roboto" , sans-serif;
+}
+@media screen and (min-width: 300px) and (max-width: 900px) {
+    .Pembayaran{
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+    }
+    .Pembayaran h1{
+        font-size: 40px;
+        padding-top: 9vh;   
+    }
+    
+}

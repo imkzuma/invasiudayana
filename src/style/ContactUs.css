@@ -1,0 +1,123 @@
+.contact-us{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.paragraph-judul{
+    font-size: 25px;
+    font-weight: bold;
+    color: #00154B;
+    text-align: center;
+    font-family: 'Magmawave Caps' !important;
+}
+.text-judul{
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 50px;
+    background: #121FCF;
+    background: linear-gradient(to right, #011f6a 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.row-contact{
+    background-image: url(../img/bg-lomba2.webp);
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.row-contact img{
+    border-radius: 50%;
+    padding: 50px 0px;
+    margin-left: 100px;
+}
+
+.text-contact{
+    padding-top: 120px;
+}
+
+.text-contact-two{
+    padding-top: 150px;
+}
+
+.text-contact h1 , 
+.text-contact-two h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+}
+
+.text-contact h3,
+.text-contact-two h3{
+    color: rgb(165, 165, 165);
+    font-weight: 400;
+    margin-top: -5px;
+}
+
+.text-contact h2,
+.text-contact-two h2{
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    color: white
+}
+
+.line-contact{
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 5px solid white;
+}
+.btn-contact, .btn-contact-one , .btn-home{
+    background-image: url(../img/bg-lomba2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.btn-contact, .btn-contact-one{
+    width: 40%;
+    margin: 0px 10px 10px 0px;
+    padding: 15px 20px;
+    border: none;
+}
+.btn-home{
+    width: 100%;
+    padding: 20px 20px;
+}
+
+@media screen and (min-width: 300px ) and (max-width: 900px) { 
+    .paragraph-judul{
+        font-size: 20px;
+    }
+    .text-judul{
+        font-size: 50px;
+    }
+    .contact-us{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .row-contact img{
+        margin: 0;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .text-contact , 
+    .text-contact-two{
+        padding: 0 20px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .text-contact h3{
+        padding-bottom: 20px;
+    }
+    .text-contact h2{
+        padding-bottom: 20px;
+    }
+    .line-contact{
+        margin: auto;
+    }
+}

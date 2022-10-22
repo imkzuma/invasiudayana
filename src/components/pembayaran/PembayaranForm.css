@@ -1,0 +1,13 @@
+.Pembayaran-Form{width: 100%; padding-bottom: 50px;}
+.row-form{padding: 0px 0px 100px 0px;}
+.row-form img{border-radius: 20px;}
+
+@media screen and (min-width : 300px){
+    .row-form{padding: 0px 20px;}
+    .row-form img{width: 100%;}
+}
+
+
+@media screen and (min-width : 720px) {
+    .row-form img{width: 50%;}
+}

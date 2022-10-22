@@ -1,0 +1,79 @@
+.Content-Card{
+    /*background-image: url(../img/bg-white.png);*/
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 20px 80px 20px;
+}
+
+.Content-Card h1{
+    margin-top: 120px;
+    font-weight: bold;
+    font-size: 70px;
+    padding-bottom: 20px;
+    /*color: #00154B;*/
+    background: #121FCF;
+    background: linear-gradient(to right, #011f6a 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 900;
+}
+.Content-Card p{
+    font-size: 17px;
+    color: #767575;
+}
+.col-text-kami{
+    padding-left: 80px;
+}
+
+hr{
+    width: 30%;
+    border-top: 4px solid #00154B;
+}
+.btn-about{
+    padding: 15px 35px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px -1px rgba(0,0,0,0.41);
+    -webkit-box-shadow: 10px 10px 20px -1px rgba(0,0,0,0.41);
+    -moz-box-shadow: 10px 10px 20px -1px rgba(0,0,0,0.41);
+    transition: 0.4s ease-in;
+}
+.btn-about:hover{
+    box-shadow: 10px 10px 20px -1px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 10px 10px 20px -1px rgba(0,0,0,0.61);
+    -moz-box-shadow: 10px 10px 20px -1px rgba(0,0,0,0.61);
+    transition: 0.4s ease-in;
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+    .Content-Card{
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+    .Content-Card img{
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .col-text-kami{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .Content-Card h1{
+        margin-top: 25px;
+        padding-bottom: 10px;
+        font-size: 60px;
+        font-weight: 900;
+        text-align: left;
+    }
+    .Content-Card p{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .btn-about{
+        width: 100%;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,38 @@
+.not-found{
+    width: 100%;
+}
+.row-404{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+}
+.not-found h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+.not-found h2{
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.not-found span{
+    background: #121FCF;
+    background: linear-gradient(to right, #011f6a 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 0px;
+}
+.not-found p{
+    font-weight: 500;
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+    .not-found h1{
+        font-size: 50px;
+    }
+    .not-found h2{
+        font-size: 30px;
+    }
+}
